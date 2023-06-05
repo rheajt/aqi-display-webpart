@@ -1,0 +1,40 @@
+{
+    "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+    "solution": {
+        "name": "aqi-display-client-side-solution",
+        "id": "dab9d54b-2aad-40f6-a800-61cd9b0b6487",
+        "version": "1.0.0.0",
+        "includeClientSideAssets": true,
+        "skipFeatureDeployment": true,
+        "isDomainIsolated": false,
+        "developer": {
+            "name": "jordan rhea",
+            "websiteUrl": "https://jordanrhea.com",
+            "privacyUrl": "https://jordanrhea.com/privacy",
+            "termsOfUseUrl": "https://jordanrhea.com/terms",
+            "mpnId": ""
+        },
+        "metadata": {
+            "shortDescription": {
+                "default": "AQI Display description"
+            },
+            "longDescription": {
+                "default": "AQI Display description"
+            },
+            "screenshotPaths": [],
+            "videoUrl": "",
+            "categories": []
+        },
+        "features": [
+            {
+                "title": "aqi-display Feature",
+                "description": "The feature that activates elements of the aqi-display solution.",
+                "id": "c12589e3-81a3-4c13-8b36-ac6a2712538c",
+                "version": "1.0.0.0"
+            }
+        ]
+    },
+    "paths": {
+        "zippedPackage": "solution/aqi-display.sppkg"
+    }
+}
